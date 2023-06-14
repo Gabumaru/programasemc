@@ -1,4 +1,5 @@
 int main(){
+
 int idade = 0,identifica,identificaP,identificaL, menu = 0, velho = 0, novo = 100000000;
 int idademaispesado, idademaisleve, idadetotal =0, bois = 0;
 double arroba = 0, peso = 0, pesototal = 0, pesomaisvelho = 0, pesomaisnovo = 0;
@@ -39,6 +40,7 @@ novo = idade;
 pesomaisnovo = peso;
 }
 }else {
+
 if (menu == 2){
 kilo = pesototal / 15;
 printf("O peso total e': %g\n", pesototal);
