@@ -5,7 +5,9 @@ int main(){
     while(alg[contador] != '\0'){
         contador++;
     }
-    
-    printf("A string %s tem %d caracteres", alg, contador);
+
+    for(int i = contador -1; i >= 0 ; i--){
+        printf("%c", alg[i]);
+    }
     
 }
