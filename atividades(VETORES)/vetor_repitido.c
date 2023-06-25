@@ -18,18 +18,13 @@ int main()
         int numeroagora = vetor[i];
         int contador = 0;
     
-        for ( j = 0; j < i; j++)
+        for ( j = 0; j < tam; j++)
         {
-            if (vetor[j] == numeroagora) {
+            if (j != i && vetor [j] == numeroagora) {
                 contador++;
             }
         }
-            for (j = i; j < tam; j++)
-            {
-                if (vetor[j] == numeroagora){
-                    contador++;
-                }
-        }
+            
         contagem[i] = contador + 1;
     }
     for (i = 0; i < tam; i++){
