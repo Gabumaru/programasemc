@@ -26,7 +26,7 @@ int main()
         if (soma > maior_soma)
         {
             maior_soma = soma;
-            inicio = i;
+            comeco = i;
         }
     }
 
